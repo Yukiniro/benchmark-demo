@@ -13,7 +13,8 @@
     "test:run": "npx vitest run",
     "test:coverrage": "npx vitest --coverage",
     "publish": "npm run test:run && npm run build && npm publish",
-    "prepare": "npx husky install"
+    "prepare": "npx husky install",
+    "benchmark": "node benchmark/index.js"
   },
   "keywords": [
     "vite",
@@ -37,6 +38,7 @@
     "@rollup/plugin-node-resolve": "^13.3.0",
     "@rollup/plugin-typescript": "^8.3.1",
     "@yukiniro/eslint-config": "^0.0.3",
+    "benchmark": "^2.1.4",
     "eslint": "^8.11.0",
     "husky": "^8.0.1",
     "lint-staged": "^13.0.3",
