@@ -3,3 +3,4 @@ __test__
 node_modules
 website
 tinybench/
+rollup.config.mjs
